@@ -1,0 +1,14 @@
+[project]
+name = "python-project-template"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.mypy]
+strict = true
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["D", "ANN", "TRY", "EM", "FA", "SIM108", "S101", "RET505", "TCH002"]
